@@ -137,6 +137,17 @@ main {
     color: #F0F0D8;
 }
 
+@media (max-width: 767px) {
+    .feature .fab, .feature .far {
+        font-size: 4em;
+        margin-right: 5px;
+    }
+    .feature .fas {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+
 hr {
     height: 5px;    
     margin: 40px auto;
@@ -199,6 +210,12 @@ hr.small {
 .post-grid > article {
     width: 32%;
     margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+    .post-grid > article {
+        width: 100%;        
+    }    
 }
 
 .post-grid > article img {
